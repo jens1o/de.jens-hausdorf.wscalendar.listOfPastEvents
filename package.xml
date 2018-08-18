@@ -1,4 +1,6 @@
-<package name="de.jens-hausdorf.wscalendar.listOfPastEvents" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/package.xsd">
+<package name="de.jens-hausdorf.wscalendar.listOfPastEvents" 
+    xmlns="http://www.woltlab.com" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/package.xsd">
     <packageinformation>
         <packagename>listOfPastEvents</packagename>
         <packagedescription>Shows the list of events laying in the past.</packagedescription>
@@ -26,5 +28,9 @@
 
     <instructions type="install">
         <instruction type="language"/>
+        <instruction type="file">files_calendar.tar</instruction>
+        <instruction type="page"/>
+        <instruction type="templateListener"/>
+        <instruction type="template"/>
     </instructions>
 </package>
