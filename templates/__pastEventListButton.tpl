@@ -1,0 +1,1 @@
+<li><a href="{link application='calendar' controller='PastEventList'}{if $categoryID}categoryID={$categoryID}{/if}{/link}" class="button"><span class="icon icon16 fa-clock-o"></span> <span>{lang}calendar.event.pastEvents{/lang}</span></a></li>

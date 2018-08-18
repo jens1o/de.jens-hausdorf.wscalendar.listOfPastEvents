@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/page.xsd">
+    <import>
+        <page identifier="de.jens-hausdorf.wscalendar.PastEventList">
+            <allowSpidersToIndex>1</allowSpidersToIndex>
+            <parent>com.woltlab.calendar.Calendar</parent>
+            <pageType>system</pageType>
+            <name language="de">Vergangene Termine</name>
+            <name language="en">Past Events</name>
+            <controller>calendar\page\PastEventListPage</controller>
+            <content language="en">
+                <title>Past Events</title>
+            </content>
+            <content language="de">
+                <title>Vergangene Termine</title>
+            </content>
+        </page>
+    </import>
+</data>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/templateListener.xsd">
+    <import>
+        <templatelistener name="upcomingEventListGoToPastEventsButton">
+            <environment>user</environment>
+            <templatename>header</templatename>
+            <templatecode><![CDATA[{if null !== $__wcf->getActivePage() && $__wcf->getActivePage()->identifier === "com.woltlab.calendar.UpcomingEventList"}{include file="__pastEventListButton"}{/if}]]></templatecode>
+            <eventname>contentHeaderNavigation</eventname>
+        </templatelistener>
+
+        <templatelistener name="pastEventListBranding">
+            <environment>user</environment>
+            <templatename>pageFooterCopyright</templatename>
+            <templatecode><![CDATA[{if null !== $__wcf->getActivePage() && $__wcf->getActivePage()->identifier === "de.jens-hausdorf.wscalendar.PastEventList"}<a href="https://jens-hausdorf.de" rel="nofollow"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>pastEventList: Jens Hausdorf // jens1o</a>{/if}]]></templatecode>
+            <eventname>copyright</eventname>
+        </templatelistener>
+    </import>
+</data>
