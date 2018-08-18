@@ -1,2 +1,5 @@
 # ignore built packages in directory.
 *.tar
+
+# ignore config files
+.vscode/
