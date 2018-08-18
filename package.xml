@@ -28,7 +28,7 @@
 
     <instructions type="install">
         <instruction type="language"/>
-        <instruction type="file">files_calendar.tar</instruction>
+        <instruction type="file" application="calendar">files_calendar.tar</instruction>
         <instruction type="page"/>
         <instruction type="templateListener"/>
         <instruction type="template"/>
