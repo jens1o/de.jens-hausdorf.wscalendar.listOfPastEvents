@@ -1,0 +1,30 @@
+<package name="de.jens-hausdorf.wsc.listOfPastEvents" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/package.xsd">
+    <packageinformation>
+        <packagename>listOfPastEvents</packagename>
+        <packagedescription>Shows the list of events laying in the past.</packagedescription>
+        <packagedescription language="de">Zeigt die Liste der Termine aus der Vergangenheit an.</packagedescription>
+        <version>1.0.0 d 1</version>
+        <date>2018-08-18</date>
+    </packageinformation>
+
+    <compatibility>
+        <api version="2018" />
+    </compatibility>
+
+    <authorinformation>
+        <author>Jens Hausdorf // jens1o</author>
+        <authorurl>https://jens-hausdorf.de</authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="3.1.0 RC 1">com.woltlab.wcf</requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="3.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+    </excludedpackages>
+
+    <instructions type="install">
+        <instruction type="language"/>
+    </instructions>
+</package>
