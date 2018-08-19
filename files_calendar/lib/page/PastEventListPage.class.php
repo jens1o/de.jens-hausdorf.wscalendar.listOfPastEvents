@@ -8,7 +8,7 @@ use calendar\data\event\date\CategoryEventDateList;
  *
  * @author      jens1o
  * @copyright   Jens Hausdorf 2018
- * @license     GNU Lesser General Public License
+ * @license     GNU General Public License
  * @package     calendar
  * @subpackage  page
  */
