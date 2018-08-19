@@ -15,7 +15,6 @@
     You should have received a copy of the GNU General Public License
     along with this program. If not, see <https://www.gnu.org/licenses/>.
 *}
-
 {if $user}
 	{capture assign='contentTitle'}{lang}calendar.event.userEvents{/lang}{/capture}
 	{capture assign='pageTitle'}{lang}calendar.event.userEvents{/lang}{if $pageNo > 1} - {lang}wcf.page.pageNo{/lang}{/if}{/capture}
